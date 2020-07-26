@@ -1,1 +1,135 @@
 /* Base styles */
+
+body {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .025rem;
+  background: gray;
+  color: white;
+  font-family: 'Lobster', cursive
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  opacity: .5;
+  border: none;
+  border-top: 1px solid gray;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+.content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  -webkit-display: flex;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.col {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+
+.banner {
+  background: url('../images/night-sky-2758741-2.jpg');
+  background-size: cover;
+  min-height: 50vh;
+  padding: 3rem;
+  text-align: center;
+}
+
+.banner-text {
+  display: inline-block;
+  margin: auto;
+  padding: 3rem;
+  font-size: 2.5rem;
+  width: auto;
+  background: #d17a7a;
+  color: #7aa6d1;
+  border: 15px groove #d17aa6;
+}
+
+.profile-img{
+  max-height: 33vh;
+  width: auto;
+border-radius: 50%;
+} 
+
+.favorite-animal{
+  background: #cde6ff;
+  border:15px groove #ffe6cd;
+}
+.biome{
+  background: #ffcdcd;
+  border:15px groove #cdffe6;
+}
+  
+.weather{
+  background: #e6ffcd;
+  border: 15px groove #cdcdff;
+}
+
+.btn {
+  padding: 2rem 5rem;
+  background: #d17a7a;
+  color: #7aa6d1;
+  font-size: 2rem;
+  border-radius: .25rem;
+  letter-spacing: 2px;
+  text-tranform: uppercase;
+  text-decoration: none;
+  border: 2px double #e6ffcd;
+  transition: all .5s ease;
+}
+ .btn:hover {
+   border: 10px groove #e6ffcd;
+   border-radius: .1rem;
+   letter-spacing: 4px;
+}
+  
+.copyright{
+  text-align:center;
+  padding: 2rem;
+  margin-top: 5rem;
+}
