@@ -4,9 +4,11 @@ body {
   font-weight: 300;
   font-size: 16px;
   letter-spacing: .025rem;
-  background: gray;
-  color: white;
-  font-family: 'Lobster', cursive
+  background: #7df9ff;
+  color: #3b31ff;
+  font-family: 'Staatliches', cursive;
+  border: 1rem solid #3b31ff;
+  margin: 0;
 }
 
 h1,
@@ -70,66 +72,89 @@ iframe {
   padding: 1rem;
 }
 
-
 .banner {
-  background: url('../images/night-sky-2758741-2.jpg');
+  background: url('../images/background.jpg');
   background-size: cover;
-  min-height: 50vh;
+  min-height: 40vh;
   padding: 3rem;
-  text-align: center;
+  text-align: right;
 }
 
 .banner-text {
   display: inline-block;
   margin: auto;
   padding: 3rem;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   width: auto;
-  background: #d17a7a;
-  color: #7aa6d1;
-  border: 15px groove #d17aa6;
+  background: #3b31ff;
+  color: #f9ff7d;
+  border: 15px double #f9ff7d;
+  background: rgba(255,105,180,.5);
 }
 
-.profile-img{
+.profile-img {
   max-height: 33vh;
   width: auto;
-border-radius: 50%;
-} 
+  border-radius: 50%;
+}
 
-.favorite-animal{
-  background: #cde6ff;
-  border:15px groove #ffe6cd;
+.favorite-animal {
+  background: #5D21D0;
+  color: white;
 }
-.biome{
-  background: #ffcdcd;
-  border:15px groove #cdffe6;
+
+.favorite-music {
+  background: #01F9C6;
+  color: #5D21D0;
 }
-  
-.weather{
-  background: #e6ffcd;
-  border: 15px groove #cdcdff;
+
+.favorite-superpower {
+  background: #04D9FF;
+  color: #5D21D0;
+}
+
+.favorite-superpower,
+.favorite-music,
+.favorite-animal {
+  padding: 3rem;
+  border: 2px solid #f9ff7d;
+}
+
+.favorite-superpower p,
+.favorite-music p,
+.favorite-animal p {
+  font-size: 1.75rem;
+}
+
+.footer {
+  padding: 3rem;
+  text-align: center;
 }
 
 .btn {
   padding: 2rem 5rem;
-  background: #d17a7a;
-  color: #7aa6d1;
+  background: #3b31ff;
+  color: #f9ff7d;
   font-size: 2rem;
   border-radius: .25rem;
   letter-spacing: 2px;
-  text-tranform: uppercase;
+  text-transform: uppercase;
   text-decoration: none;
-  border: 2px double #e6ffcd;
-  transition: all .5s ease;
+  border: 4px solid #f9ff7d;
+  box-shadow: 0px 0px 5px 3px rgba(249,255,125,.35);
+  transition: all .5s ease, box-shadow 2s ease;
 }
- .btn:hover {
-   border: 10px groove #e6ffcd;
-   border-radius: .1rem;
-   letter-spacing: 4px;
+
+.btn:hover {
+  border: 10px solid #f9ff7d;
+  border-radius: .1rem;
+  letter-spacing: 10px;
+  box-shadow: 0px 0px 50px 35px rgba(249,255,125,.65);
+  transform: translateY(2.5rem);
 }
-  
-.copyright{
-  text-align:center;
+
+.copyright {
+  text-align: center;
   padding: 2rem;
   margin-top: 5rem;
 }
